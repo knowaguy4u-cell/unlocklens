@@ -70,6 +70,7 @@ pub fn validate_release_update(
 
 /// Linear unlock math used by the dashboard: how much *should* be unlocked
 /// at `now_ts` given a straight-line schedule from start to end.
+#[allow(dead_code)] // consumed by the dashboard client, not the program
 pub fn linear_unlocked_at(
     total_amount: u64,
     start_ts: i64,
