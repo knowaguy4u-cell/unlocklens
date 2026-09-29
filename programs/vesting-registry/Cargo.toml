@@ -1,0 +1,19 @@
+[package]
+name = "vesting-registry"
+version = "0.1.0"
+description = "UnlockLens on-chain vesting-schedule transparency registry"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "vesting_registry"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.31.1"

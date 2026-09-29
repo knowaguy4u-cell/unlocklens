@@ -1,0 +1,22 @@
+{
+  "verified_at": "2026-09-29T01:41:55.791Z",
+  "rpc": "https://api.mainnet-beta.solana.com",
+  "mint": "STREAMribRwybYpMmSYoCsQUdr6MZNXEqHgm7p1gu9M",
+  "slot": 451496663,
+  "supply": {
+    "base_units": "299999952329349",
+    "ui": "299999952.329349",
+    "decimals": 6,
+    "expected_ui": "299999952"
+  },
+  "authorities": {
+    "mintAuthority": null,
+    "freezeAuthority": null
+  },
+  "checks": {
+    "supply_matches": true,
+    "mint_authority_null": true,
+    "freeze_authority_null": true
+  },
+  "all_pass": true
+}

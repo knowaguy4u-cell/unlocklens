@@ -1,0 +1,14 @@
+UNLOCKLENS PITCH — narration script (spoken form)
+Voice: avocado_v2:MAI_03 (Smooth). One segment per scene.
+
+--- SEGMENT 1 (scene1-hero) ---
+I'm Tim. Streamflow builds vesting infrastructure on Solana, and last month they burned seven hundred million tokens. A serious trust move. But their own unlock chart still promises three hundred thirty nine million tokens against a three hundred million supply. So I built the checker. This is UnlockLens.
+
+--- SEGMENT 2 (scene2-anomaly) ---
+The chart was never rebased after the burn. Its now point disagrees with the pie chart sitting right next to it. Sixty two percent unlocked, minus forty eight and a half percent circulating, leaves forty million tokens unlocked and unaccounted for. And the two biggest locked buckets link to zero vesting contracts.
+
+--- SEGMENT 3 (scene3-verify) ---
+But the burn itself? Real. UnlockLens reads the mint account straight from mainnet. Supply: two hundred ninety nine million, nine hundred ninety nine thousand, nine hundred fifty two. Mint authority: none. Freeze authority: none. One RPC call, and the strongest version of the claim is proven.
+
+--- SEGMENT 4 (scene4-registry) ---
+UnlockLens is an Anchor program. One on-chain account per vesting schedule. Anyone can register. Only the declared authority can report releases, and the counter can only move up. No more charts that outgrow the supply. Verified on chain, not on trust.
